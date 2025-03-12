@@ -1,0 +1,76 @@
+/* About Page - Light Theme */
+
+/* Color Palette
+   Primary:   #211C84
+   Secondary: #4D55CC
+   Tertiary:  #7A73D1
+   Quaternary:#B5A8D5
+*/
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sticky Navbar (Primary color) */
+  .navbar {
+    background-color: #211C84;
+  }
+  .navbar-dark .navbar-brand,
+  .navbar-dark .nav-link {
+    color: #fff !important;
+  }
+  .navbar-dark .nav-link.active,
+  .navbar-dark .nav-link:hover {
+    color: #B5A8D5 !important;
+  }
+  
+  /* Hero About */
+  .hero-about {
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+      ),
+      url('https://via.placeholder.com/1600x500.png?text=About+Lucy+Hampson')
+      no-repeat center center/cover;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  .hero-about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* About Section */
+  #about-section {
+    padding: 3rem 2rem;
+  }
+  #about-section h2 {
+    color: #211C84;
+    margin-bottom: 1rem;
+  }
+  #about-section p {
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #211C84;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  footer a:hover {
+    color: #7A73D1;
+  }
+  

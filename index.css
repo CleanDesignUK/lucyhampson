@@ -1,0 +1,167 @@
+/*---------------------------------------------------------
+ COLOR PALETTE 
+   Primary:   #211C84 
+   Secondary: #4D55CC
+   Tertiary:  #7A73D1
+   Quaternary:#B5A8D5
+----------------------------------------------------------*/
+
+/* Global Light Theme */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sticky Navbar */
+  .navbar {
+    background-color: #211C84;
+  }
+  .navbar-dark .navbar-brand,
+  .navbar-dark .nav-link {
+    color: #fff !important;
+  }
+  .navbar-dark .nav-link:hover,
+  .navbar-dark .nav-link.active {
+    color: #B5A8D5 !important;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    background: linear-gradient(
+        rgba(0,0,0,0.35),
+        rgba(0,0,0,0.35)
+      ),
+      url('https://via.placeholder.com/1600x900.png?text=Movement+Therapy+Hero')
+      no-repeat center center/cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .btn-hero {
+    background-color: #4D55CC;
+    border: none;
+    color: #fff;
+  }
+  .btn-hero:hover {
+    background-color: #7A73D1;
+  }
+  
+  /* Why Choose Us Section */
+  #why-us {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  #why-us h2 {
+    color: #211C84;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .why-image {
+    max-width: 400px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Services Preview */
+  #services-preview {
+    padding: 4rem 2rem;
+    background-color: #f0f0ff;
+    text-align: center;
+  }
+  #services-preview h2 {
+    color: #211C84;
+    margin-bottom: 2rem;
+  }
+  .service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  .service-card img {
+    border-radius: 5px 5px 0 0;
+  }
+  .service-card .card-body h5 {
+    color: #4D55CC;
+  }
+  .service-card .card-text {
+    color: #333;
+  }
+  .btn-primary {
+    background-color: #4D55CC;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #7A73D1;
+  }
+  
+  /* CTA Section */
+  #cta-section {
+    background-color: #7A73D1;
+    padding: 3rem 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  #cta-section h2 {
+    margin-bottom: 1rem;
+  }
+  #cta-section p {
+    margin-bottom: 2rem;
+  }
+  .cta-btn {
+    background-color: #211C84;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .cta-btn:hover {
+    background-color: #B5A8D5;
+    color: #211C84;
+  }
+  
+  /* Contact CTA Section */
+  #contact-cta {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  #contact-cta h2 {
+    color: #211C84;
+    margin-bottom: 1rem;
+  }
+  #contact-cta p {
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #211C84;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  footer a {
+    color: #fff;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #7A73D1;
+  }
+  
