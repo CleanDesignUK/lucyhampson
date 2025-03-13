@@ -26,7 +26,7 @@ body {
   /* Hero Section with placeholder background */
   .hero-section {
     position: relative;
-    background: url('https://via.placeholder.com/1500x800.png?text=Movement+Therapy+Hero')
+    background: url('hero.jpg')
       no-repeat center center/cover;
     height: 80vh;
     display: flex;

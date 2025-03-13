@@ -3,31 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lucy Hampson – Home</title>
+  <title>Lucy Hampson – Movement Therapy</title>
   
   <!-- Bootstrap 5 CSS (CDN) -->
   <link 
-    rel="stylesheet" 
+    rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
   />
   <!-- Bootstrap Icons (Optional) -->
   <link 
-    rel="stylesheet" 
+    rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
   />
-  <!-- Custom CSS for Index Page -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
   <!-- Sticky Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Lucy Hampson</a>
+      <a class="navbar-brand fw-bold" href="#">Lucy Hampson</a>
       <button 
         class="navbar-toggler" 
         type="button" 
         data-bs-toggle="collapse" 
-        data-bs-target="#navbarNav" 
+        data-bs-target="#navbarNav"
         aria-controls="navbarNav" 
         aria-expanded="false" 
         aria-label="Toggle navigation"
@@ -36,129 +36,255 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sales</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Section with Background Image -->
   <section class="hero d-flex align-items-center">
-    <div class="container text-center">
-      <h1>Movement Therapy & Handwriting Support</h1>
-      <p class="mb-4">Empowering children with dyspraxia, dyslexia, autism, and more.</p>
-      <a href="#why-us" class="btn btn-hero px-4 py-2">Learn More</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-center text-white">
+      <h1 class="fw-bold mb-3">Movement Therapy & Handwriting Support</h1>
+      <p class="mb-4">
+        Empowering children with dyspraxia, dyslexia, autism, and more.
+      </p>
+      <a href="#why-lucy" class="btn btn-hero px-4 py-2">Learn More</a>
     </div>
   </section>
 
-  <!-- Why Choose Lucy Hampson Section -->
-  <section id="why-us" class="py-5">
+  <!-- Why Choose Lucy Hampson? -->
+  <section id="why-lucy" class="py-5">
     <div class="container">
-      <h2 class="mb-4 text-center">Why Choose Lucy Hampson?</h2>
+      <h2 class="text-center mb-5" style="color: #211C84;">Why Choose Lucy Hampson?</h2>
       <div class="row align-items-center">
+        <!-- Image Column -->
         <div class="col-md-5 text-center mb-4 mb-md-0">
-          <img src="https://via.placeholder.com/400x400.png?text=Holistic+Therapy" alt="Holistic Approach" class="why-image img-fluid rounded" />
+          <img 
+            src="holistic-approach.jpg"
+            alt="Holistic Approach"
+            class="img-fluid rounded"
+          />
         </div>
+        <!-- Text Column -->
         <div class="col-md-7">
           <p>
-            Our holistic approach combines movement therapy, handwriting support, and parent-focused care. We address challenges such as birth trauma and stress while empowering families with specialized training and support.
+            Our holistic approach combines movement therapy, handwriting support, 
+            and parent-focused care. We address challenges such as birth trauma, 
+            anxiety, and stress while empowering families with specialized 
+            training and support.
           </p>
           <ul>
-            <li>RIPED Movement Training</li>
+            <li>RIPED Movement Training & Motor Skills</li>
             <li>Handwriting & Fine Motor Skills Support</li>
             <li>Parent Therapy & Stress Management</li>
             <li>Rocking & Gentle Trauma Recovery</li>
           </ul>
-          <!-- CTA Button to About Page -->
-          <a href="about.html" class="btn btn-secondary mt-3">Learn More About Us</a>
+          <a href="#" class="btn btn-secondary mt-3">Learn More</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Our Services Preview -->
+  <!-- Our Key Services -->
   <section id="services-preview" class="py-5">
     <div class="container text-center">
       <h2 class="mb-5">Our Key Services</h2>
       <div class="row g-4">
         <!-- Service Card 1 -->
         <div class="col-md-6 col-lg-3">
-          <div class="service-card h-100">
-            <img src="https://via.placeholder.com/600x400.png?text=Movement+Therapy" class="card-img-top" alt="Movement Therapy" />
-            <div class="card-body">
+          <div class="service-card h-100 d-flex flex-column">
+            <img 
+              src="movement-therapy.jpg"
+              class="card-img-top"
+              alt="Movement Therapy"
+            />
+            <div class="card-body flex-grow-1 p-4">
               <h5 class="card-title">Movement Therapy</h5>
               <p class="card-text">
-                Tailored exercises to improve motor skills and address challenges.
+                Through RIPED Movement Training and carefully structured exercises,
+                children develop better motor planning and confidence.
               </p>
-              <a href="services.html" class="btn btn-primary w-100 mt-2">Learn More</a>
+            </div>
+            <div class="mt-auto p-3 text-center">
+              <a href="#" class="btn btn-primary mt-2">Learn More</a>
             </div>
           </div>
         </div>
         <!-- Service Card 2 -->
         <div class="col-md-6 col-lg-3">
-          <div class="service-card h-100">
-            <img src="https://via.placeholder.com/600x400.png?text=Handwriting+Support" class="card-img-top" alt="Handwriting Support" />
-            <div class="card-body">
+          <div class="service-card h-100 d-flex flex-column">
+            <img 
+              src="handwriting-therapy.jpg"
+              class="card-img-top"
+              alt="Handwriting Support"
+            />
+            <div class="card-body flex-grow-1 p-4">
               <h5 class="card-title">Handwriting Support</h5>
               <p class="card-text">
-                Specialized exercises to enhance handwriting and fine motor skills.
+                Specialized exercises, practice sessions, and fine motor skill 
+                training to help children write confidently and legibly.
               </p>
-              <a href="services.html" class="btn btn-primary w-100 mt-2">Learn More</a>
+            </div>
+            <div class="mt-auto p-3 text-center">
+              <a href="#" class="btn btn-primary mt-2">Learn More</a>
             </div>
           </div>
         </div>
         <!-- Service Card 3 -->
         <div class="col-md-6 col-lg-3">
-          <div class="service-card h-100">
-            <img src="https://via.placeholder.com/600x400.png?text=Parent+Therapy" class="card-img-top" alt="Parent Therapy" />
-            <div class="card-body">
+          <div class="service-card h-100 d-flex flex-column">
+            <img 
+              src="parent-therapy.jpg"
+              class="card-img-top"
+              alt="Parent Therapy"
+            />
+            <div class="card-body flex-grow-1 p-4">
               <h5 class="card-title">Parent Therapy</h5>
               <p class="card-text">
-                Guidance for parents, including stress management and EFT.
+                Guidance for parents, including stress management, emotional 
+                freedom (EFT), and massage methods to maintain a calm environment.
               </p>
-              <a href="services.html" class="btn btn-primary w-100 mt-2">Learn More</a>
+            </div>
+            <div class="mt-auto p-3 text-center">
+              <a href="#" class="btn btn-primary mt-2">Learn More</a>
             </div>
           </div>
         </div>
         <!-- Service Card 4 -->
         <div class="col-md-6 col-lg-3">
-          <div class="service-card h-100">
-            <img src="https://via.placeholder.com/600x400.png?text=Rocking+Therapy" class="card-img-top" alt="Rocking Therapy" />
-            <div class="card-body">
+          <div class="service-card h-100 d-flex flex-column">
+            <img 
+              src="rocking-therapy.jpg"
+              class="card-img-top"
+              alt="Rocking Therapy"
+            />
+            <div class="card-body flex-grow-1 p-4">
               <h5 class="card-title">Rocking Therapy</h5>
               <p class="card-text">
-                A gentle, rhythmic approach to soothe birth trauma and reduce anxiety.
+                A gentle, rhythmic approach to reduce birth trauma, 
+                ease fear responses, and foster deeper relaxation in children.
               </p>
-              <a href="services.html" class="btn btn-primary w-100 mt-2">Learn More</a>
+            </div>
+            <div class="mt-auto p-3 text-center">
+              <a href="#" class="btn btn-primary mt-2">Learn More</a>
             </div>
           </div>
         </div>
       </div>
       <div class="mt-4">
-        <a href="services.html" class="btn btn-primary px-4 py-2">Explore Our Services</a>
+        <a href="#" class="btn btn-primary px-4 py-2">
+          Explore Our Services
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- CTA Section: Ready to Learn More? with buttons to each page -->
+  <!-- Booklet & Additional Resources -->
+  <section id="booklet" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center" style="color: #211C84;">Booklet & Additional Resources</h2>
+      <p class="text-center mb-5">
+        Enhance your child’s handwriting and overall development with our 
+        comprehensive resources. We provide PDF handwriting patterns and 
+        cards in hardcopy format.
+      </p>
+      <div class="row g-4 justify-content-center">
+        <!-- PDF Handwriting Patterns -->
+        <div class="col-md-4">
+          <div class="resource-card h-100 p-3 border rounded text-center">
+            <img 
+              src="handwriting-patterns.jpg"
+              alt="PDF Patterns"
+              class="img-fluid mb-3"
+            />
+            <h5 class="mb-3" style="color: #4D55CC;">PDF Handwriting Patterns</h5>
+            <p>
+              A set of structured handwriting exercises to refine letter 
+              formation, spacing, and motor control.
+            </p>
+            <a 
+              href="#" 
+              class="btn btn-success"
+              target="_blank"
+            >
+              Purchase PDF
+            </a>
+          </div>
+        </div>
+        <!-- Cards PDF Hardcopy -->
+        <div class="col-md-4">
+          <div class="resource-card h-100 p-3 border rounded text-center">
+            <img 
+              src="writing-cards.jpg"
+              alt="Hardcopy Cards"
+              class="img-fluid mb-3"
+            />
+            <h5 class="mb-3" style="color: #4D55CC;">Cards (Hardcopy)</h5>
+            <p>
+              Physical cards with key handwriting cues and 
+              movement therapy reminders—perfect for on-the-go practice.
+            </p>
+            <a 
+              href="#" 
+              class="btn btn-success"
+              target="_blank"
+            >
+              Buy on Amazon
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutoring & Calendly -->
+  <section id="tutoring-calendly" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center" style="color: #211C84;">Tutoring & Calendly</h2>
+      <div class="row align-items-center">
+        <!-- Left Column: Intro Text -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <p>
+            For more personalized guidance, schedule a one-on-one tutoring session.
+            We'll tailor exercises to your child's unique needs, helping them build
+            confidence and master essential skills.
+          </p>
+          <p>
+            Whether your child needs extra help with handwriting, movement training, 
+            or overcoming anxiety responses, our dedicated tutoring sessions provide 
+            in-depth, focused support to accelerate progress.
+          </p>
+        </div>
+        <!-- Right Column: Calendly Widget -->
+        <div class="col-md-6">
+          <div 
+            class="calendly-inline-widget" 
+            data-url="https://calendly.com/your-calendly-link" 
+            style="min-width:320px; height:630px;"
+          ></div>
+          <script 
+            type="text/javascript" 
+            src="https://assets.calendly.com/assets/external/widget.js" 
+            async
+          ></script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section: Ready to Learn More? -->
   <section id="cta-section" class="py-5 text-center">
     <div class="container">
       <h2>Ready to Learn More?</h2>
       <p>Visit our individual pages for more details on each aspect of our services.</p>
-      <a href="about.html" class="btn cta-btn px-4 py-2 me-3">About</a>
-      <a href="services.html" class="btn cta-btn px-4 py-2 me-3">Services</a>
-      <a href="contact.html" class="btn cta-btn px-4 py-2">Contact</a>
+      <a href="#" class="btn cta-btn px-4 py-2 me-3">About</a>
+      <a href="#" class="btn cta-btn px-4 py-2 me-3">Services</a>
+      <a href="#" class="btn cta-btn px-4 py-2">Contact</a>
     </div>
   </section>
 
@@ -169,29 +295,18 @@
       <p class="mb-4">
         Have questions or want to schedule a consultation? Click below to reach us.
       </p>
-      <a href="contact.html" class="btn btn-primary px-4 py-2">Contact Us</a>
+      <a href="#" class="btn btn-primary px-4 py-2">Contact Us</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="py-4 text-center">
+  <footer class="py-4 text-center" style="background-color: #211C84;">
     <div class="container">
-      <div class="d-flex justify-content-center mb-3">
-        <a href="https://facebook.com" target="_blank" class="me-3">
-          <i class="bi bi-facebook fs-4"></i>
-        </a>
-        <a href="https://twitter.com" target="_blank" class="me-3">
-          <i class="bi bi-twitter fs-4"></i>
-        </a>
-        <a href="https://instagram.com" target="_blank">
-          <i class="bi bi-instagram fs-4"></i>
-        </a>
-      </div>
-      <p class="mb-0">&copy; 2025 Lucy Hampson – All rights reserved.</p>
+      <p class="mb-0 text-white">&copy; 2025 Lucy Hampson – All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Bootstrap 5 JS -->
+  <!-- Bootstrap 5 JS (CDN) -->
   <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
   ></script>
